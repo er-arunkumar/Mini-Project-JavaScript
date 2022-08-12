@@ -58,3 +58,17 @@ for(let a=1;a<=100;a++){
         console.log(a);
     }
 }
+
+// Count Single Digit
+
+function digits_count(n){
+let count=0;
+if (n>=1) ++count;
+
+while(n/100>=1){
+    n/=100;
+    ++count;
+    }
+    return count;
+}
+console.log(digits_count(count));
