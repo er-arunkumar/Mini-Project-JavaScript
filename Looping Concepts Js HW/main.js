@@ -1,4 +1,4 @@
-<<<<<<< HEAD:main.js
+
 // Number 1-100 -> Divisible by 2, get divisor
 // While Loop
 let no1=10;
@@ -73,7 +73,7 @@ while(n/100>=1){
     return count;
 }
 console.log(digits_count(count));
-=======
+
 // Number 1-100 -> Divisible by 2, get divisor
 // While Loop
 let no1=10;
@@ -134,4 +134,3 @@ for(let a=1;a<=100;a++){
         console.log(a);
     }
 }
->>>>>>> b9e18f31b558a062599d5b4266b0995a6266abb8:Looping Concepts Js HW/main.js
